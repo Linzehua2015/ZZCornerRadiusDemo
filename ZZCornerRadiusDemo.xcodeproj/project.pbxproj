@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9E3F8881E6521F000C4DAAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3F8871E6521F000C4DAAC /* main.m */; };
+		F9E3F88B1E6521F000C4DAAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3F88A1E6521F000C4DAAC /* AppDelegate.m */; };
+		F9E3F88E1E6521F000C4DAAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3F88D1E6521F000C4DAAC /* ViewController.m */; };
+		F9E3F8911E6521F000C4DAAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E3F88F1E6521F000C4DAAC /* Main.storyboard */; };
+		F9E3F8931E6521F000C4DAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E3F8921E6521F000C4DAAC /* Assets.xcassets */; };
+		F9E3F8961E6521F000C4DAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E3F8941E6521F000C4DAAC /* LaunchScreen.storyboard */; };
+		F9E3F8A11E6521F000C4DAAC /* ZZCornerRadiusDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3F8A01E6521F000C4DAAC /* ZZCornerRadiusDemoTests.m */; };
+		F9E3F8AC1E6521F000C4DAAC /* ZZCornerRadiusDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3F8AB1E6521F000C4DAAC /* ZZCornerRadiusDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9E3F89D1E6521F000C4DAAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9E3F87B1E6521F000C4DAAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9E3F8821E6521F000C4DAAC;
+			remoteInfo = ZZCornerRadiusDemo;
+		};
+		F9E3F8A81E6521F000C4DAAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9E3F87B1E6521F000C4DAAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9E3F8821E6521F000C4DAAC;
+			remoteInfo = ZZCornerRadiusDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9E3F8831E6521F000C4DAAC /* ZZCornerRadiusDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZCornerRadiusDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E3F8871E6521F000C4DAAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9E3F8891E6521F000C4DAAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9E3F88A1E6521F000C4DAAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9E3F88C1E6521F000C4DAAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9E3F88D1E6521F000C4DAAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9E3F8901E6521F000C4DAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9E3F8921E6521F000C4DAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9E3F8951E6521F000C4DAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9E3F8971E6521F000C4DAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E3F89C1E6521F000C4DAAC /* ZZCornerRadiusDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZCornerRadiusDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E3F8A01E6521F000C4DAAC /* ZZCornerRadiusDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCornerRadiusDemoTests.m; sourceTree = "<group>"; };
+		F9E3F8A21E6521F000C4DAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E3F8A71E6521F000C4DAAC /* ZZCornerRadiusDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZCornerRadiusDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E3F8AB1E6521F000C4DAAC /* ZZCornerRadiusDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCornerRadiusDemoUITests.m; sourceTree = "<group>"; };
+		F9E3F8AD1E6521F000C4DAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9E3F8801E6521F000C4DAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E3F8991E6521F000C4DAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E3F8A41E6521F000C4DAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9E3F87A1E6521F000C4DAAC = {
+			isa = PBXGroup;
+			children = (
+				F9E3F8851E6521F000C4DAAC /* ZZCornerRadiusDemo */,
+				F9E3F89F1E6521F000C4DAAC /* ZZCornerRadiusDemoTests */,
+				F9E3F8AA1E6521F000C4DAAC /* ZZCornerRadiusDemoUITests */,
+				F9E3F8841E6521F000C4DAAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9E3F8841E6521F000C4DAAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9E3F8831E6521F000C4DAAC /* ZZCornerRadiusDemo.app */,
+				F9E3F89C1E6521F000C4DAAC /* ZZCornerRadiusDemoTests.xctest */,
+				F9E3F8A71E6521F000C4DAAC /* ZZCornerRadiusDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9E3F8851E6521F000C4DAAC /* ZZCornerRadiusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F9E3F8891E6521F000C4DAAC /* AppDelegate.h */,
+				F9E3F88A1E6521F000C4DAAC /* AppDelegate.m */,
+				F9E3F88C1E6521F000C4DAAC /* ViewController.h */,
+				F9E3F88D1E6521F000C4DAAC /* ViewController.m */,
+				F9E3F88F1E6521F000C4DAAC /* Main.storyboard */,
+				F9E3F8921E6521F000C4DAAC /* Assets.xcassets */,
+				F9E3F8941E6521F000C4DAAC /* LaunchScreen.storyboard */,
+				F9E3F8971E6521F000C4DAAC /* Info.plist */,
+				F9E3F8861E6521F000C4DAAC /* Supporting Files */,
+			);
+			path = ZZCornerRadiusDemo;
+			sourceTree = "<group>";
+		};
+		F9E3F8861E6521F000C4DAAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9E3F8871E6521F000C4DAAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9E3F89F1E6521F000C4DAAC /* ZZCornerRadiusDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9E3F8A01E6521F000C4DAAC /* ZZCornerRadiusDemoTests.m */,
+				F9E3F8A21E6521F000C4DAAC /* Info.plist */,
+			);
+			path = ZZCornerRadiusDemoTests;
+			sourceTree = "<group>";
+		};
+		F9E3F8AA1E6521F000C4DAAC /* ZZCornerRadiusDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9E3F8AB1E6521F000C4DAAC /* ZZCornerRadiusDemoUITests.m */,
+				F9E3F8AD1E6521F000C4DAAC /* Info.plist */,
+			);
+			path = ZZCornerRadiusDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9E3F8821E6521F000C4DAAC /* ZZCornerRadiusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E3F8B01E6521F000C4DAAC /* Build configuration list for PBXNativeTarget "ZZCornerRadiusDemo" */;
+			buildPhases = (
+				F9E3F87F1E6521F000C4DAAC /* Sources */,
+				F9E3F8801E6521F000C4DAAC /* Frameworks */,
+				F9E3F8811E6521F000C4DAAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZCornerRadiusDemo;
+			productName = ZZCornerRadiusDemo;
+			productReference = F9E3F8831E6521F000C4DAAC /* ZZCornerRadiusDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9E3F89B1E6521F000C4DAAC /* ZZCornerRadiusDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E3F8B31E6521F000C4DAAC /* Build configuration list for PBXNativeTarget "ZZCornerRadiusDemoTests" */;
+			buildPhases = (
+				F9E3F8981E6521F000C4DAAC /* Sources */,
+				F9E3F8991E6521F000C4DAAC /* Frameworks */,
+				F9E3F89A1E6521F000C4DAAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9E3F89E1E6521F000C4DAAC /* PBXTargetDependency */,
+			);
+			name = ZZCornerRadiusDemoTests;
+			productName = ZZCornerRadiusDemoTests;
+			productReference = F9E3F89C1E6521F000C4DAAC /* ZZCornerRadiusDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9E3F8A61E6521F000C4DAAC /* ZZCornerRadiusDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E3F8B61E6521F000C4DAAC /* Build configuration list for PBXNativeTarget "ZZCornerRadiusDemoUITests" */;
+			buildPhases = (
+				F9E3F8A31E6521F000C4DAAC /* Sources */,
+				F9E3F8A41E6521F000C4DAAC /* Frameworks */,
+				F9E3F8A51E6521F000C4DAAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9E3F8A91E6521F000C4DAAC /* PBXTargetDependency */,
+			);
+			name = ZZCornerRadiusDemoUITests;
+			productName = ZZCornerRadiusDemoUITests;
+			productReference = F9E3F8A71E6521F000C4DAAC /* ZZCornerRadiusDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9E3F87B1E6521F000C4DAAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "林泽华";
+				TargetAttributes = {
+					F9E3F8821E6521F000C4DAAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F9E3F89B1E6521F000C4DAAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9E3F8821E6521F000C4DAAC;
+					};
+					F9E3F8A61E6521F000C4DAAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9E3F8821E6521F000C4DAAC;
+					};
+				};
+			};
+			buildConfigurationList = F9E3F87E1E6521F000C4DAAC /* Build configuration list for PBXProject "ZZCornerRadiusDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9E3F87A1E6521F000C4DAAC;
+			productRefGroup = F9E3F8841E6521F000C4DAAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9E3F8821E6521F000C4DAAC /* ZZCornerRadiusDemo */,
+				F9E3F89B1E6521F000C4DAAC /* ZZCornerRadiusDemoTests */,
+				F9E3F8A61E6521F000C4DAAC /* ZZCornerRadiusDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9E3F8811E6521F000C4DAAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E3F8961E6521F000C4DAAC /* LaunchScreen.storyboard in Resources */,
+				F9E3F8931E6521F000C4DAAC /* Assets.xcassets in Resources */,
+				F9E3F8911E6521F000C4DAAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E3F89A1E6521F000C4DAAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E3F8A51E6521F000C4DAAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9E3F87F1E6521F000C4DAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E3F88E1E6521F000C4DAAC /* ViewController.m in Sources */,
+				F9E3F88B1E6521F000C4DAAC /* AppDelegate.m in Sources */,
+				F9E3F8881E6521F000C4DAAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E3F8981E6521F000C4DAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E3F8A11E6521F000C4DAAC /* ZZCornerRadiusDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E3F8A31E6521F000C4DAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E3F8AC1E6521F000C4DAAC /* ZZCornerRadiusDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9E3F89E1E6521F000C4DAAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9E3F8821E6521F000C4DAAC /* ZZCornerRadiusDemo */;
+			targetProxy = F9E3F89D1E6521F000C4DAAC /* PBXContainerItemProxy */;
+		};
+		F9E3F8A91E6521F000C4DAAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9E3F8821E6521F000C4DAAC /* ZZCornerRadiusDemo */;
+			targetProxy = F9E3F8A81E6521F000C4DAAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9E3F88F1E6521F000C4DAAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E3F8901E6521F000C4DAAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9E3F8941E6521F000C4DAAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E3F8951E6521F000C4DAAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9E3F8AE1E6521F000C4DAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9E3F8AF1E6521F000C4DAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9E3F8B11E6521F000C4DAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZCornerRadiusDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZ.ZZCornerRadiusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9E3F8B21E6521F000C4DAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZCornerRadiusDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZ.ZZCornerRadiusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9E3F8B41E6521F000C4DAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZCornerRadiusDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZ.ZZCornerRadiusDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZCornerRadiusDemo.app/ZZCornerRadiusDemo";
+			};
+			name = Debug;
+		};
+		F9E3F8B51E6521F000C4DAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZCornerRadiusDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZ.ZZCornerRadiusDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZCornerRadiusDemo.app/ZZCornerRadiusDemo";
+			};
+			name = Release;
+		};
+		F9E3F8B71E6521F000C4DAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZCornerRadiusDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZ.ZZCornerRadiusDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZCornerRadiusDemo;
+			};
+			name = Debug;
+		};
+		F9E3F8B81E6521F000C4DAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZCornerRadiusDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZ.ZZCornerRadiusDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZCornerRadiusDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9E3F87E1E6521F000C4DAAC /* Build configuration list for PBXProject "ZZCornerRadiusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E3F8AE1E6521F000C4DAAC /* Debug */,
+				F9E3F8AF1E6521F000C4DAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E3F8B01E6521F000C4DAAC /* Build configuration list for PBXNativeTarget "ZZCornerRadiusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E3F8B11E6521F000C4DAAC /* Debug */,
+				F9E3F8B21E6521F000C4DAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9E3F8B31E6521F000C4DAAC /* Build configuration list for PBXNativeTarget "ZZCornerRadiusDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E3F8B41E6521F000C4DAAC /* Debug */,
+				F9E3F8B51E6521F000C4DAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9E3F8B61E6521F000C4DAAC /* Build configuration list for PBXNativeTarget "ZZCornerRadiusDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E3F8B71E6521F000C4DAAC /* Debug */,
+				F9E3F8B81E6521F000C4DAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9E3F87B1E6521F000C4DAAC /* Project object */;
+}
