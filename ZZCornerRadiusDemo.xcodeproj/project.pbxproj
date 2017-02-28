@@ -15,6 +15,7 @@
 		F9E3F8961E6521F000C4DAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E3F8941E6521F000C4DAAC /* LaunchScreen.storyboard */; };
 		F9E3F8A11E6521F000C4DAAC /* ZZCornerRadiusDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3F8A01E6521F000C4DAAC /* ZZCornerRadiusDemoTests.m */; };
 		F9E3F8AC1E6521F000C4DAAC /* ZZCornerRadiusDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3F8AB1E6521F000C4DAAC /* ZZCornerRadiusDemoUITests.m */; };
+		F9E3F8BD1E6526F200C4DAAC /* UIView-CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3F8BC1E6526F200C4DAAC /* UIView-CornerRadius.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F9E3F8A71E6521F000C4DAAC /* ZZCornerRadiusDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZCornerRadiusDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E3F8AB1E6521F000C4DAAC /* ZZCornerRadiusDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCornerRadiusDemoUITests.m; sourceTree = "<group>"; };
 		F9E3F8AD1E6521F000C4DAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E3F8BB1E6526F200C4DAAC /* UIView-CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView-CornerRadius.h"; sourceTree = "<group>"; };
+		F9E3F8BC1E6526F200C4DAAC /* UIView-CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView-CornerRadius.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		F9E3F87A1E6521F000C4DAAC = {
 			isa = PBXGroup;
 			children = (
+				F9E3F8B91E6526F200C4DAAC /* Extension */,
 				F9E3F8851E6521F000C4DAAC /* ZZCornerRadiusDemo */,
 				F9E3F89F1E6521F000C4DAAC /* ZZCornerRadiusDemoTests */,
 				F9E3F8AA1E6521F000C4DAAC /* ZZCornerRadiusDemoUITests */,
@@ -138,6 +142,23 @@
 				F9E3F8AD1E6521F000C4DAAC /* Info.plist */,
 			);
 			path = ZZCornerRadiusDemoUITests;
+			sourceTree = "<group>";
+		};
+		F9E3F8B91E6526F200C4DAAC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F9E3F8BA1E6526F200C4DAAC /* UIView */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F9E3F8BA1E6526F200C4DAAC /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				F9E3F8BB1E6526F200C4DAAC /* UIView-CornerRadius.h */,
+				F9E3F8BC1E6526F200C4DAAC /* UIView-CornerRadius.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +297,7 @@
 				F9E3F88E1E6521F000C4DAAC /* ViewController.m in Sources */,
 				F9E3F88B1E6521F000C4DAAC /* AppDelegate.m in Sources */,
 				F9E3F8881E6521F000C4DAAC /* main.m in Sources */,
+				F9E3F8BD1E6526F200C4DAAC /* UIView-CornerRadius.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +529,7 @@
 				F9E3F8B21E6521F000C4DAAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9E3F8B31E6521F000C4DAAC /* Build configuration list for PBXNativeTarget "ZZCornerRadiusDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +538,7 @@
 				F9E3F8B51E6521F000C4DAAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9E3F8B61E6521F000C4DAAC /* Build configuration list for PBXNativeTarget "ZZCornerRadiusDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +547,7 @@
 				F9E3F8B81E6521F000C4DAAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

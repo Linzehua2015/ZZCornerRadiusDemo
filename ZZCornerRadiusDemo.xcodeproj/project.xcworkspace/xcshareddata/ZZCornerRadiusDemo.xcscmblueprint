@@ -1,0 +1,40 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7252AB6442D61750D7CF21281570A6F8D2966E1B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "7252AB6442D61750D7CF21281570A6F8D2966E1B" : {
+
+    },
+    "f318cbe5-547e-2aaf-9b57-ce57b7db7bff++8844" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7252AB6442D61750D7CF21281570A6F8D2966E1B" : 9223372036854775807,
+    "f318cbe5-547e-2aaf-9b57-ce57b7db7bff++8844" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "48995A69-4B1C-4D39-BF66-635075CC7234",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7252AB6442D61750D7CF21281570A6F8D2966E1B" : "ZZCornerRadiusDemo\/",
+    "f318cbe5-547e-2aaf-9b57-ce57b7db7bff++8844" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZZCornerRadiusDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZZCornerRadiusDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Linzehua2015\/ZZCornerRadiusDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7252AB6442D61750D7CF21281570A6F8D2966E1B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Linzehua2015\/ZZCornerRadiusDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7252AB6442D61750D7CF21281570A6F8D2966E1B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Linzehua2015\/ZZCornerRadiusDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "f318cbe5-547e-2aaf-9b57-ce57b7db7bff++8844"
+    }
+  ]
+}
