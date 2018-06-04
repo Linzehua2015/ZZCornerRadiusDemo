@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F936506E1E67FCDD00461DEA /* LayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F936506D1E67FCDD00461DEA /* LayerVC.m */; };
+		F93650711E67FCE600461DEA /* BestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F93650701E67FCE600461DEA /* BestVC.m */; };
+		F93650751E67FFDB00461DEA /* BestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F93650741E67FFDB00461DEA /* BestCell.m */; };
 		F9E3F8881E6521F000C4DAAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3F8871E6521F000C4DAAC /* main.m */; };
 		F9E3F88B1E6521F000C4DAAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3F88A1E6521F000C4DAAC /* AppDelegate.m */; };
 		F9E3F88E1E6521F000C4DAAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3F88D1E6521F000C4DAAC /* ViewController.m */; };
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F936506C1E67FCDD00461DEA /* LayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerVC.h; sourceTree = "<group>"; };
+		F936506D1E67FCDD00461DEA /* LayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerVC.m; sourceTree = "<group>"; };
+		F936506F1E67FCE600461DEA /* BestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestVC.h; sourceTree = "<group>"; };
+		F93650701E67FCE600461DEA /* BestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestVC.m; sourceTree = "<group>"; };
+		F93650731E67FFDB00461DEA /* BestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestCell.h; sourceTree = "<group>"; };
+		F93650741E67FFDB00461DEA /* BestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestCell.m; sourceTree = "<group>"; };
 		F9E3F8831E6521F000C4DAAC /* ZZCornerRadiusDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZCornerRadiusDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E3F8871E6521F000C4DAAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9E3F8891E6521F000C4DAAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +90,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F936506B1E67FCD100461DEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F936506C1E67FCDD00461DEA /* LayerVC.h */,
+				F936506D1E67FCDD00461DEA /* LayerVC.m */,
+				F936506F1E67FCE600461DEA /* BestVC.h */,
+				F93650701E67FCE600461DEA /* BestVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F93650721E67FFCE00461DEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F93650731E67FFDB00461DEA /* BestCell.h */,
+				F93650741E67FFDB00461DEA /* BestCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F9E3F87A1E6521F000C4DAAC = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +134,8 @@
 		F9E3F8851E6521F000C4DAAC /* ZZCornerRadiusDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F93650721E67FFCE00461DEA /* View */,
+				F936506B1E67FCD100461DEA /* Controller */,
 				F9E3F8891E6521F000C4DAAC /* AppDelegate.h */,
 				F9E3F88A1E6521F000C4DAAC /* AppDelegate.m */,
 				F9E3F88C1E6521F000C4DAAC /* ViewController.h */,
@@ -228,6 +259,7 @@
 				TargetAttributes = {
 					F9E3F8821E6521F000C4DAAC = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KTLQ266ERA;
 						ProvisioningStyle = Automatic;
 					};
 					F9E3F89B1E6521F000C4DAAC = {
@@ -294,7 +326,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F93650711E67FCE600461DEA /* BestVC.m in Sources */,
+				F936506E1E67FCDD00461DEA /* LayerVC.m in Sources */,
 				F9E3F88E1E6521F000C4DAAC /* ViewController.m in Sources */,
+				F93650751E67FFDB00461DEA /* BestCell.m in Sources */,
 				F9E3F88B1E6521F000C4DAAC /* AppDelegate.m in Sources */,
 				F9E3F8881E6521F000C4DAAC /* main.m in Sources */,
 				F9E3F8BD1E6526F200C4DAAC /* UIView-CornerRadius.m in Sources */,
@@ -392,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -434,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KTLQ266ERA;
 				INFOPLIST_FILE = ZZCornerRadiusDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZZ.ZZCornerRadiusDemo;
@@ -457,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KTLQ266ERA;
 				INFOPLIST_FILE = ZZCornerRadiusDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZZ.ZZCornerRadiusDemo;

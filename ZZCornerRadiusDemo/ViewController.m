@@ -7,23 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "UIView-CornerRadius.h"
+
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    UIView *view = [[UIView alloc] init];
-    view.backgroundColor = [UIColor yellowColor];
-    view.frame = CGRectMake(100, 100, 100, 100);
-    [self.view addSubview:view];
-    
-    [view addImageWithCornerRadius:50 color:[UIColor redColor]];
-}
 
 @end
